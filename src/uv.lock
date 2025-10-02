@@ -22,7 +22,7 @@ wheels = [
 
 [[package]]
 name = "astropy"
-version = "6.1.7"
+version = "6.0.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "astropy-iers-data" },
@@ -31,16 +31,7 @@ dependencies = [
     { name = "pyerfa" },
     { name = "pyyaml" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/8a/f8/9c6675ab4c646b95aae2762d108f6be4504033d91bd50da21daa62cab5ce/astropy-6.1.7.tar.gz", hash = "sha256:a405ac186306b6cb152e6df2f7444ab8bd764e4127d7519da1b3ae4dd65357ef", size = 7063411, upload-time = "2024-11-22T21:22:34.373Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/73/9d/21d2e61080a81e7e1f5e5006204a76e70588aa1a88aa9044c2d203578d07/astropy-6.1.7-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:fbeaf04427987c0c6fa2e579eb40011802b06fba6b3a7870e082d5c693564e1b", size = 6528360, upload-time = "2024-11-22T21:22:16.275Z" },
-    { url = "https://files.pythonhosted.org/packages/d5/3e/b999ec6cd607c512e66d8a138443361eb88899760c7cb8517a66155732ee/astropy-6.1.7-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:ab6e88241a14185b9404b02246329185b70292984aa0616b20a0628dfe4f4ebb", size = 6407905, upload-time = "2024-11-22T21:22:18.035Z" },
-    { url = "https://files.pythonhosted.org/packages/db/2d/44557c63688c2ed03d0d72b4f27fc30fc1ea250aeb5ebd939796c5f98bee/astropy-6.1.7-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:a0529c75565feaabb629946806b4763ae7b02069aeff4c3b56a69e8a9e638500", size = 10106849, upload-time = "2024-11-22T21:22:20.393Z" },
-    { url = "https://files.pythonhosted.org/packages/66/bc/993552eb932dec528fe6b95f511e918473ea4406dee4b17c223f3fd8a919/astropy-6.1.7-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:9c5ec347631da77573fc729ba04e5d89a3bc94500bf6037152a2d0f9965ae1ce", size = 10194766, upload-time = "2024-11-22T21:22:23.116Z" },
-    { url = "https://files.pythonhosted.org/packages/9f/f3/3c5282762c8a5746e7752e46a1e328c79a5d0186d96cfd0995bdf976e1f9/astropy-6.1.7-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:dc496f87aaccaa5c6624acc985b8770f039c5bbe74b120c8ed7bad3698e24e1b", size = 10219291, upload-time = "2024-11-22T21:22:26.079Z" },
-    { url = "https://files.pythonhosted.org/packages/d8/52/949bb79df9c03f56d0ae93ac62f2616fe3e67db51677bf412473bf6d077e/astropy-6.1.7-cp313-cp313-win32.whl", hash = "sha256:b1e01d534383c038dbf8664b964fa4ea818c7419318830d3c732c750c64115c6", size = 6269501, upload-time = "2024-11-22T21:22:28.468Z" },
-    { url = "https://files.pythonhosted.org/packages/a1/da/f369561a67061dd42e13c7f758b393ae90319dbbcf7e301a18ce3fa43ec6/astropy-6.1.7-cp313-cp313-win_amd64.whl", hash = "sha256:af08cf2b0368f1ea585eb26a55d99a2de9e9b0bd30aba84b5329059c3ec33590", size = 6393207, upload-time = "2024-11-22T21:22:31.797Z" },
-]
+sdist = { url = "https://files.pythonhosted.org/packages/48/08/f205a24d75ad1f329586bb685b53574c5303c56acf80924166a6c8df8a09/astropy-6.0.1.tar.gz", hash = "sha256:89a975de356d0608e74f1f493442fb3acbbb7a85b739e074460bb0340014b39c", size = 7074537, upload-time = "2024-03-26T18:30:03.408Z" }
 
 [[package]]
 name = "astropy-iers-data"
@@ -823,8 +814,7 @@ wheels = [
 
 [[package]]
 name = "pdrtpy"
-version = "2.4.4"
-source = { registry = "https://pypi.org/simple" }
+source = { editable = "../pdrtpy" }
 dependencies = [
     { name = "astropy" },
     { name = "corner" },
@@ -838,10 +828,57 @@ dependencies = [
     { name = "scipy" },
     { name = "tqdm" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/95/26/19c11cb4710773bb54d0ccda95d1a439e413cd46768e872ade6de1b0e254/pdrtpy-2.4.4.tar.gz", hash = "sha256:83564bb1f01abe134aa630e6e0f22045ba65af24829acb5b405fd348983e6279", size = 36750399, upload-time = "2025-02-07T20:07:48.154Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/96/92/ab0eee8cf2118c8b489c8a724ce0595624aa62c06e9f4a6e7b78d11296bf/pdrtpy-2.4.4-py3-none-any.whl", hash = "sha256:3f640d8e1f34ce0fdaf23a2acfe4fbcd034c5d64f74adabcdb2d9ee2ca146cf4", size = 40932662, upload-time = "2025-02-07T20:07:39.934Z" },
+
+[package.metadata]
+requires-dist = [
+    { name = "astropy", specifier = "<6.1.0" },
+    { name = "corner" },
+    { name = "coverage", extras = ["toml"], marker = "extra == 'all'" },
+    { name = "coverage", extras = ["toml"], marker = "extra == 'dev'" },
+    { name = "coverage-badge", marker = "extra == 'all'" },
+    { name = "coverage-badge", marker = "extra == 'dev'" },
+    { name = "emcee" },
+    { name = "flake8", marker = "extra == 'all'" },
+    { name = "flake8", marker = "extra == 'dev'" },
+    { name = "ipdb", marker = "extra == 'all'" },
+    { name = "ipdb", marker = "extra == 'dev'" },
+    { name = "jupyter", marker = "extra == 'all'" },
+    { name = "jupyter", marker = "extra == 'nb'" },
+    { name = "jupyterlab", marker = "extra == 'all'" },
+    { name = "jupyterlab", marker = "extra == 'nb'" },
+    { name = "lmfit" },
+    { name = "matplotlib" },
+    { name = "mpl-interactions" },
+    { name = "mpl-interactions", extras = ["jupyter"] },
+    { name = "myst-nb", marker = "extra == 'all'" },
+    { name = "myst-nb", marker = "extra == 'dev'" },
+    { name = "numdifftools" },
+    { name = "numpy", specifier = "<2.0" },
+    { name = "numpydoc", marker = "extra == 'all'" },
+    { name = "numpydoc", marker = "extra == 'dev'" },
+    { name = "pandas" },
+    { name = "pip-tools", marker = "extra == 'all'" },
+    { name = "pip-tools", marker = "extra == 'dev'" },
+    { name = "pre-commit", marker = "extra == 'all'" },
+    { name = "pre-commit", marker = "extra == 'dev'" },
+    { name = "pytest", marker = "extra == 'all'" },
+    { name = "pytest", marker = "extra == 'dev'" },
+    { name = "pytest-cov", marker = "extra == 'all'" },
+    { name = "pytest-cov", marker = "extra == 'dev'" },
+    { name = "scipy" },
+    { name = "sphinx", marker = "extra == 'all'" },
+    { name = "sphinx", marker = "extra == 'dev'" },
+    { name = "sphinx-autobuild", marker = "extra == 'all'" },
+    { name = "sphinx-autobuild", marker = "extra == 'dev'" },
+    { name = "sphinx-book-theme", marker = "extra == 'all'" },
+    { name = "sphinx-book-theme", marker = "extra == 'dev'" },
+    { name = "sphinx-inline-tabs", marker = "extra == 'all'" },
+    { name = "sphinx-inline-tabs", marker = "extra == 'dev'" },
+    { name = "sphinxcontrib-mermaid", marker = "extra == 'all'" },
+    { name = "sphinxcontrib-mermaid", marker = "extra == 'dev'" },
+    { name = "tqdm" },
 ]
+provides-extras = ["all", "dev", "nb"]
 
 [[package]]
 name = "pexpect"
@@ -1247,7 +1284,7 @@ requires-dist = [
     { name = "ipykernel", specifier = ">=6.30.1" },
     { name = "ipympl", specifier = ">=0.9.7" },
     { name = "numba", specifier = ">=0.62.1" },
-    { name = "pdrtpy", specifier = ">=2.4.4" },
+    { name = "pdrtpy", editable = "../pdrtpy" },
     { name = "regions", specifier = ">=0.10" },
     { name = "spectral-cube", specifier = ">=0.6.6" },
     { name = "zeustools-nanoexplorer", git = "https://github.com/nanoexplorer/zeustools" },
