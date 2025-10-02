@@ -5,11 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "astropy>=6.1.0",
     "corner>=2.2.3",
     "ipykernel>=6.30.1",
     "ipympl>=0.9.7",
     "numba>=0.62.1",
-    "pdrtpy",
     "regions>=0.10",
     "spectral-cube>=0.6.6",
     "zeustools-nanoexplorer",
@@ -17,4 +17,3 @@ dependencies = [
 
 [tool.uv.sources]
 zeustools-nanoexplorer = { git = "https://github.com/nanoexplorer/zeustools" }
-pdrtpy = { path = "../pdrtpy", editable = true }

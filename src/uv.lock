@@ -12,17 +12,8 @@ wheels = [
 ]
 
 [[package]]
-name = "asteval"
-version = "1.0.6"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/2b/f0/ad92c4bc565918713f9a4b54f06d06ec370e48079fdb50cf432befabee8b/asteval-1.0.6.tar.gz", hash = "sha256:1aa8e7304b2e171a90d64dd269b648cacac4e46fe5de54ac0db24776c0c4a19f", size = 52079, upload-time = "2025-01-19T21:44:03.291Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/13/ac/19dbba27e891f39feb4170b884da449ee2699ef4ebb88eefeda364bbbbcf/asteval-1.0.6-py3-none-any.whl", hash = "sha256:5e119ed306e39199fd99c881cea0e306b3f3807f050c9be79829fe274c6378dc", size = 22406, upload-time = "2025-01-19T21:44:01.323Z" },
-]
-
-[[package]]
 name = "astropy"
-version = "6.0.1"
+version = "7.1.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "astropy-iers-data" },
@@ -31,7 +22,16 @@ dependencies = [
     { name = "pyerfa" },
     { name = "pyyaml" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/48/08/f205a24d75ad1f329586bb685b53574c5303c56acf80924166a6c8df8a09/astropy-6.0.1.tar.gz", hash = "sha256:89a975de356d0608e74f1f493442fb3acbbb7a85b739e074460bb0340014b39c", size = 7074537, upload-time = "2024-03-26T18:30:03.408Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/83/91/124d020cea78e4e4b6db7ff726c2c2e4a5865293d0a4355d13b0312d99f1/astropy-7.1.0.tar.gz", hash = "sha256:c8f254322295b1b8cf24303d6f155bf7efdb6c1282882b966ce3040eff8c53c5", size = 6976116, upload-time = "2025-05-20T13:40:10.557Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a3/d6/ec68703aff787ca1bb2ed92a109256a6e4d9975aeee0b4bd2b0ab84b2993/astropy-7.1.0-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:116149abdebafab193f7ca16427bd6bb4afc111677c78c32f48cffbc0ecb6a18", size = 6375607, upload-time = "2025-05-20T13:39:57.6Z" },
+    { url = "https://files.pythonhosted.org/packages/2b/79/0f6eacbe575c3b677d70193c22b68c3a95bec68204ccf53068b657c7ed06/astropy-7.1.0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:734d5e93e76d2e2175f991b17ca130463f2edb56c107fbc07c6532ca461a6ea7", size = 6296640, upload-time = "2025-05-20T13:39:58.973Z" },
+    { url = "https://files.pythonhosted.org/packages/c7/c1/06bd8bd17b2302c05d75079ca89d79825dede63c00876e439ec91f120405/astropy-7.1.0-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:1fd94f755f2e9104c5caf0afe69175d2620708828233d387c1dad0044e79f543", size = 10030192, upload-time = "2025-05-20T13:40:01.129Z" },
+    { url = "https://files.pythonhosted.org/packages/17/ce/f9e103e6be3d801cadffef8eb814bd10e4de3603b9ba9f97dd41c6a59bde/astropy-7.1.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:49effea6de855dcdba09a211d51ca279766c66284c8db3d911b4523bbd96eae9", size = 10079889, upload-time = "2025-05-20T13:40:03.076Z" },
+    { url = "https://files.pythonhosted.org/packages/a3/fe/605a09e74b03ea2981632cd9a9a3720bd8d232ddaa729fc63ce46d538218/astropy-7.1.0-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:52709e6bbe65c6d6c2a342506ad8c2801ff2aed80cc0a5d7817387122e0ac616", size = 10084024, upload-time = "2025-05-20T13:40:04.776Z" },
+    { url = "https://files.pythonhosted.org/packages/af/e9/8259c4699227e5ee71d5d15a297f1e9469b99a980a1fd3140ecf68e98c4d/astropy-7.1.0-cp313-cp313-win32.whl", hash = "sha256:a77d07a104ec24ed7f8a45de3935f46071551aa2eb6d6b62efebdc888f65b6d6", size = 6150536, upload-time = "2025-05-20T13:40:06.638Z" },
+    { url = "https://files.pythonhosted.org/packages/0b/dd/d9c55247172f7156696d85c9146b64b41c30405bf86b775a731bed4d52f8/astropy-7.1.0-cp313-cp313-win_amd64.whl", hash = "sha256:8e317f34e33a8f5517bc9fc6fbc005f42730d3be7d2820ef41e0468bcb796843", size = 6278127, upload-time = "2025-05-20T13:40:08.643Z" },
+]
 
 [[package]]
 name = "astropy-iers-data"
@@ -277,27 +277,6 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/43/fa/6d96a0978d19e17b68d634497769987b16c8f4cd0a7a05048bec693caa6b/decorator-5.2.1.tar.gz", hash = "sha256:65f266143752f734b0a7cc83c46f4618af75b8c5911b00ccb61d0ac9b6da0360", size = 56711, upload-time = "2025-02-24T04:41:34.073Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/4e/8c/f3147f5c4b73e7550fe5f9352eaa956ae838d5c51eb58e7a25b9f3e2643b/decorator-5.2.1-py3-none-any.whl", hash = "sha256:d316bb415a2d9e2d2b3abcc4084c6502fc09240e292cd76a76afc106a1c8e04a", size = 9190, upload-time = "2025-02-24T04:41:32.565Z" },
-]
-
-[[package]]
-name = "dill"
-version = "0.4.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/12/80/630b4b88364e9a8c8c5797f4602d0f76ef820909ee32f0bacb9f90654042/dill-0.4.0.tar.gz", hash = "sha256:0633f1d2df477324f53a895b02c901fb961bdbf65a17122586ea7019292cbcf0", size = 186976, upload-time = "2025-04-16T00:41:48.867Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/50/3d/9373ad9c56321fdab5b41197068e1d8c25883b3fea29dd361f9b55116869/dill-0.4.0-py3-none-any.whl", hash = "sha256:44f54bf6412c2c8464c14e8243eb163690a9800dbe2c367330883b19c7561049", size = 119668, upload-time = "2025-04-16T00:41:47.671Z" },
-]
-
-[[package]]
-name = "emcee"
-version = "3.1.6"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "numpy" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/cb/53/1045ee878cb24281387079f8ee4f0ade1622c6aae1ed1fd91a53e4fa5b19/emcee-3.1.6.tar.gz", hash = "sha256:11af4daf6ab8f9ca69681e3c29054665db7bbd87fd4eb8e437d2c3a1248c637d", size = 2871117, upload-time = "2024-04-19T10:03:19.555Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/f9/ef/2196b9bf88ffa1bde45853c72df021fbd07a8fa91a0f59a22d14a050dc04/emcee-3.1.6-py2.py3-none-any.whl", hash = "sha256:f2d63752023bdccf744461450e512a5b417ae7d28f18e12acd76a33de87580cb", size = 47351, upload-time = "2024-04-19T10:03:17.522Z" },
 ]
 
 [[package]]
@@ -583,22 +562,6 @@ wheels = [
 ]
 
 [[package]]
-name = "lmfit"
-version = "1.3.4"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "asteval" },
-    { name = "dill" },
-    { name = "numpy" },
-    { name = "scipy" },
-    { name = "uncertainties" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/5a/e5/a35942aed2de95e228728c34609b51fe3ec9182398eac50d288eef313aa2/lmfit-1.3.4.tar.gz", hash = "sha256:3c22c28c43f717f6c5b4a3bd81e893a2149739c26a592c046f2e33c23cfbe497", size = 630720, upload-time = "2025-07-19T20:09:01.876Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/38/7e/7b91c89a4cf0f543a83be978657afb20c86af6d725253e319589dcc4ce52/lmfit-1.3.4-py3-none-any.whl", hash = "sha256:afce1593b42324d37ae2908249b0c55445e2f4c1a0474ff706a8e2f7b5d949fa", size = 97662, upload-time = "2025-07-19T20:09:00.32Z" },
-]
-
-[[package]]
 name = "locket"
 version = "1.0.0"
 source = { registry = "https://pypi.org/simple" }
@@ -667,24 +630,6 @@ wheels = [
 ]
 
 [[package]]
-name = "mpl-interactions"
-version = "0.24.2"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "matplotlib" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/d7/b5/458d2bd9985d939d709769d4604ac5ea0d5eb2d76ed8cfa1746ce2269be3/mpl_interactions-0.24.2.tar.gz", hash = "sha256:2ef91b44bd3fb88395d7ea0bae862b7c987004d87dfb478c8bc1655999a3c2e1", size = 36042395, upload-time = "2024-09-10T20:45:12.463Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/36/56/947abc9885841744c708d57871c05d381ecb1bb8f12e5d6ec138e4cf99e6/mpl_interactions-0.24.2-py3-none-any.whl", hash = "sha256:bacda7af49007096942d01a4973e7df5b52afaa8385a688a383e34ffee6105d3", size = 45549, upload-time = "2024-09-10T20:45:10.142Z" },
-]
-
-[package.optional-dependencies]
-jupyter = [
-    { name = "ipympl" },
-    { name = "ipywidgets" },
-]
-
-[[package]]
 name = "nest-asyncio"
 version = "1.6.0"
 source = { registry = "https://pypi.org/simple" }
@@ -708,19 +653,6 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/78/7e/bf2e3634993d57f95305c7cee4c9c6cb3c9c78404ee7b49569a0dfecfe33/numba-0.62.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:8c9460b9e936c5bd2f0570e20a0a5909ee6e8b694fd958b210e3bde3a6dba2d7", size = 3804576, upload-time = "2025-09-29T10:42:59.53Z" },
     { url = "https://files.pythonhosted.org/packages/e8/b6/8a1723fff71f63bbb1354bdc60a1513a068acc0f5322f58da6f022d20247/numba-0.62.1-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:728f91a874192df22d74e3fd42c12900b7ce7190b1aad3574c6c61b08313e4c5", size = 3503367, upload-time = "2025-09-29T10:43:26.326Z" },
     { url = "https://files.pythonhosted.org/packages/9c/ec/9d414e7a80d6d1dc4af0e07c6bfe293ce0b04ea4d0ed6c45dad9bd6e72eb/numba-0.62.1-cp313-cp313-win_amd64.whl", hash = "sha256:bbf3f88b461514287df66bc8d0307e949b09f2b6f67da92265094e8fa1282dd8", size = 2745529, upload-time = "2025-09-29T10:44:31.738Z" },
-]
-
-[[package]]
-name = "numdifftools"
-version = "0.9.41"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "numpy" },
-    { name = "scipy" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/a7/3c/32bcbc96f465d5b34986d75d4eb3531f3f3e5b36099970bfbce8e9bc1712/numdifftools-0.9.41.tar.gz", hash = "sha256:4ef705cd3c06211b3a4e9fd05ad622be916dcfda40732f0128805a2c4be389b4", size = 6735932, upload-time = "2022-11-10T17:06:22.859Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/a3/5c/37cd5db8c465db2664b2219410b8bc7743da6edb1b616b5d13008bd7cac2/numdifftools-0.9.41-py2.py3-none-any.whl", hash = "sha256:a8b162e06889ea73643a47b84935a63d8214d4b4b0805d36a3c28c56379b3e51", size = 100223, upload-time = "2022-11-10T17:06:18.789Z" },
 ]
 
 [[package]]
@@ -811,74 +743,6 @@ sdist = { url = "https://files.pythonhosted.org/packages/b2/3a/3f06f34820a31257d
 wheels = [
     { url = "https://files.pythonhosted.org/packages/71/e7/40fb618334dcdf7c5a316c0e7343c5cd82d3d866edc100d98e29bc945ecd/partd-1.4.2-py3-none-any.whl", hash = "sha256:978e4ac767ec4ba5b86c6eaa52e5a2a3bc748a2ca839e8cc798f1cc6ce6efb0f", size = 18905, upload-time = "2024-05-06T19:51:39.271Z" },
 ]
-
-[[package]]
-name = "pdrtpy"
-source = { editable = "../pdrtpy" }
-dependencies = [
-    { name = "astropy" },
-    { name = "corner" },
-    { name = "emcee" },
-    { name = "lmfit" },
-    { name = "matplotlib" },
-    { name = "mpl-interactions", extra = ["jupyter"] },
-    { name = "numdifftools" },
-    { name = "numpy" },
-    { name = "pandas" },
-    { name = "scipy" },
-    { name = "tqdm" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "astropy", specifier = "<6.1.0" },
-    { name = "corner" },
-    { name = "coverage", extras = ["toml"], marker = "extra == 'all'" },
-    { name = "coverage", extras = ["toml"], marker = "extra == 'dev'" },
-    { name = "coverage-badge", marker = "extra == 'all'" },
-    { name = "coverage-badge", marker = "extra == 'dev'" },
-    { name = "emcee" },
-    { name = "flake8", marker = "extra == 'all'" },
-    { name = "flake8", marker = "extra == 'dev'" },
-    { name = "ipdb", marker = "extra == 'all'" },
-    { name = "ipdb", marker = "extra == 'dev'" },
-    { name = "jupyter", marker = "extra == 'all'" },
-    { name = "jupyter", marker = "extra == 'nb'" },
-    { name = "jupyterlab", marker = "extra == 'all'" },
-    { name = "jupyterlab", marker = "extra == 'nb'" },
-    { name = "lmfit" },
-    { name = "matplotlib" },
-    { name = "mpl-interactions" },
-    { name = "mpl-interactions", extras = ["jupyter"] },
-    { name = "myst-nb", marker = "extra == 'all'" },
-    { name = "myst-nb", marker = "extra == 'dev'" },
-    { name = "numdifftools" },
-    { name = "numpy", specifier = "<2.0" },
-    { name = "numpydoc", marker = "extra == 'all'" },
-    { name = "numpydoc", marker = "extra == 'dev'" },
-    { name = "pandas" },
-    { name = "pip-tools", marker = "extra == 'all'" },
-    { name = "pip-tools", marker = "extra == 'dev'" },
-    { name = "pre-commit", marker = "extra == 'all'" },
-    { name = "pre-commit", marker = "extra == 'dev'" },
-    { name = "pytest", marker = "extra == 'all'" },
-    { name = "pytest", marker = "extra == 'dev'" },
-    { name = "pytest-cov", marker = "extra == 'all'" },
-    { name = "pytest-cov", marker = "extra == 'dev'" },
-    { name = "scipy" },
-    { name = "sphinx", marker = "extra == 'all'" },
-    { name = "sphinx", marker = "extra == 'dev'" },
-    { name = "sphinx-autobuild", marker = "extra == 'all'" },
-    { name = "sphinx-autobuild", marker = "extra == 'dev'" },
-    { name = "sphinx-book-theme", marker = "extra == 'all'" },
-    { name = "sphinx-book-theme", marker = "extra == 'dev'" },
-    { name = "sphinx-inline-tabs", marker = "extra == 'all'" },
-    { name = "sphinx-inline-tabs", marker = "extra == 'dev'" },
-    { name = "sphinxcontrib-mermaid", marker = "extra == 'all'" },
-    { name = "sphinxcontrib-mermaid", marker = "extra == 'dev'" },
-    { name = "tqdm" },
-]
-provides-extras = ["all", "dev", "nb"]
 
 [[package]]
 name = "pexpect"
@@ -1268,11 +1132,11 @@ name = "src"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "astropy" },
     { name = "corner" },
     { name = "ipykernel" },
     { name = "ipympl" },
     { name = "numba" },
-    { name = "pdrtpy" },
     { name = "regions" },
     { name = "spectral-cube" },
     { name = "zeustools-nanoexplorer" },
@@ -1280,11 +1144,11 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "astropy", specifier = ">=6.1.0" },
     { name = "corner", specifier = ">=2.2.3" },
     { name = "ipykernel", specifier = ">=6.30.1" },
     { name = "ipympl", specifier = ">=0.9.7" },
     { name = "numba", specifier = ">=0.62.1" },
-    { name = "pdrtpy", editable = "../pdrtpy" },
     { name = "regions", specifier = ">=0.10" },
     { name = "spectral-cube", specifier = ">=0.6.6" },
     { name = "zeustools-nanoexplorer", git = "https://github.com/nanoexplorer/zeustools" },
@@ -1360,15 +1224,6 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/95/32/1a225d6164441be760d75c2c42e2780dc0873fe382da3e98a2e1e48361e5/tzdata-2025.2.tar.gz", hash = "sha256:b60a638fcc0daffadf82fe0f57e53d06bdec2f36c4df66280ae79bce6bd6f2b9", size = 196380, upload-time = "2025-03-23T13:54:43.652Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/5c/23/c7abc0ca0a1526a0774eca151daeb8de62ec457e77262b66b359c3c7679e/tzdata-2025.2-py2.py3-none-any.whl", hash = "sha256:1a403fada01ff9221ca8044d701868fa132215d84beb92242d9acd2147f667a8", size = 347839, upload-time = "2025-03-23T13:54:41.845Z" },
-]
-
-[[package]]
-name = "uncertainties"
-version = "3.2.3"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/fe/0c/cb09f33b26955399c675ab378e4063ed7e48422d3d49f96219ab0be5eba9/uncertainties-3.2.3.tar.gz", hash = "sha256:76a5653e686f617a42922d546a239e9efce72e6b35411b7750a1d12dcba03031", size = 160492, upload-time = "2025-04-21T19:58:28.63Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/8f/5e/f1e1dd319e35e962a4e00b33150a8868b6329cc1d19fd533436ba5488f09/uncertainties-3.2.3-py3-none-any.whl", hash = "sha256:313353900d8f88b283c9bad81e7d2b2d3d4bcc330cbace35403faaed7e78890a", size = 60118, upload-time = "2025-04-21T19:58:26.864Z" },
 ]
 
 [[package]]
